@@ -63,7 +63,7 @@ public class TaurusActivity extends AppCompatActivity {
         TextView body = findViewById(R.id.taurus_textView);
 
         if (isSuccsess) {
-            // title.setText(z.getSunSign());
+            // title.setText(z.getSunSign());;
             date.setText(z.getDate());
             body.setText(z.getHoroscope());
         } else {
