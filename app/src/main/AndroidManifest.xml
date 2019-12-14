@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.felixmbikogbia.horology">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gemini1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.felixmbikogbia.horology.MainActivity"></activity>
+        <activity android:name="com.felixmbikogbia.horology.PiscesActivity"
+            android:label="@string/piscesTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.CapricornActivity"
+            android:label="@string/capricornTittle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.ScorpioActivity"
+            android:label="@string/scorpioTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.SagittariusActivity"
+            android:label="@string/sagittariusTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.LibraActivity"
+            android:label="@string/libraTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.VirgoActivity"
+            android:label="@string/virgoTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.LeoActivity"
+            android:label="@string/leoTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.CancerActivity"
+            android:label="@string/cancerTittle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.GeminiActivity"
+            android:label="@string/geminiTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.AquariusActivity"
+            android:label="@string/aquariusTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.TaurusActivity"
+            android:label="@string/taurusTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.AriesActivity"
+            android:label="@string/ariesTitle"
+            android:parentActivityName="com.felixmbikogbia.horology.MainActivity"/>
+        <activity android:name="com.felixmbikogbia.horology.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
